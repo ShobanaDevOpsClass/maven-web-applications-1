@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center"> Welcome to Shobana Devops</h1>
-<h1 align="center">Welcome to Mithun Technologies Private Ltd. ,Bengaluru,Karnataka,India</h1>
+<h1 align="center">USA</h1>
 <h1 align="center"> Mithun Technologies- Very Good Training center for DevOps with AWS,Python & AWS Solution Architect & Terraform in Bangalore India.Teaching Real Time scnerios</h1>
 <hr>
 <br>
