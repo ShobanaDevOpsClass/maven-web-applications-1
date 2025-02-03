@@ -2,6 +2,11 @@ node{
     def mavenHome = tool name: 'maven3.9.8'
     properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')), pipelineTriggers([pollSCM('* * * * *')])])
 stage('checkoutcode')
+echo "Build name: ${env.BUILD_NAME}"
+echo "Job name: ${env.JOB_NAME}"
+echo "Node name: ${env.NODE_NAME}"
+echo "Workspace path: ${env.WORSPACE}"
+echo "Jenkins path: ${env.JENKINS_HOME}"
 {
 git branch: 'development', credentialsId: '7fb54b9d-6bed-431d-a28c-b38d653f1dfc', url: 'https://github.com/ShobanaDevOpsClass/maven-web-applications-1.git'
 }
